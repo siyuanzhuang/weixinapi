@@ -1,19 +1,11 @@
 {
-    "name": "easyswoole/weixin_api",
-    "description": "use online payment easily just like echo \"hello world\";",
+    "name": "zhuangsiyuan/weixinapi",
+    "description": "easyswoole weixin api",
     "type": "library",
     "license": "Apache-2.0",
     "autoload": {
         "psr-4": {
             "EasySwoole\\weixin_api\\": "src/"
         }
-    },
-    "require": {
-        "easyswoole/spl": "^1.1",
-        "easyswoole/http-client": "^1.0",
-        "ext-openssl":">=1.0",
-        "ext-json":">=1.0",
-        "easyswoole/utility": "^1.0",
-        "easyswoole/http": "^1.2"
     }
 }
