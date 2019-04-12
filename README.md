@@ -1,2 +1,1 @@
-# weixinap
-easyswoole weixin api
+微信公众号接口
