@@ -14,13 +14,11 @@ class WeixinApi
 
     function weiXin()
 	{
-		if( $config ){
-			$this->instanceList['weChat'] = new WeiXin();
-		}
         if( isset( $this->instanceList['weChat'] ) ){
             return $this->instanceList['weChat'];
         } else{
-            return null;
+            $this->instanceList['weChat'] = new WeiXin();
+            return $this->instanceList['weChat'];
         }
     }
 }
